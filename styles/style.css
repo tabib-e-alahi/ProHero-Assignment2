@@ -315,6 +315,15 @@ text-align: center;
 color: #424242;
 
 }
+@keyframes slide {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+.something:hover{
+  
+    animation: slide 1s ease-in-out 0.5s infinite  alternate ;
+}
 
  @media screen and (max-width:576px) {
     .navigation{
